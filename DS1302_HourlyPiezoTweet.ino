@@ -3,7 +3,8 @@ Modified on Nov 25, 2020
 Modified by MehranMaleki from Arduino Examples
 https://electropeak.com/learn/interfacing-ds1302-real-time-clock-rtc-module-with-arduino/
 RTC module with CR2032 coin battery
-
+Piezo addition by Suren(Sroto&Gargees) on Oct 23,2022
+Library: RTC by Makuna
 */
 
 
