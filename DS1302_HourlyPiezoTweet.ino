@@ -91,7 +91,7 @@ void loop ()
         Serial.println("RTC lost confidence in the DateTime!");
     }
 
-    delay(5000); // five seconds
+    delay(1000); // 1 seconds
 }
 
 #define countof(a) (sizeof(a) / sizeof(a[0]))
@@ -119,3 +119,4 @@ if (dt.Minute()==30 && dt.Second()==00){
 tone(P,f);delay(50);notone(P);}  // Once every 30 min
 
 }
+//End of code
