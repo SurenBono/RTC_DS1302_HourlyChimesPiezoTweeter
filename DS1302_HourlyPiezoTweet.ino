@@ -14,7 +14,9 @@ Library: RTC by Makuna
 // DS1302 RST/CE --> 2
 // DS1302 VCC --> 3.3v - 5v
 // DS1302 GND --> GND
-// Piezo  GND & VCC --> 3 
+// Piezo  VCC --> 3 
+// Piezo  GND --> GND
+// Add Display --> LCD,Led matrix,OLED..etc
 
 #include <ThreeWire.h>  
 #include <RtcDS1302.h>
@@ -119,4 +121,5 @@ if (dt.Minute()==30 && dt.Second()==00){
 tone(P,f);delay(50);notone(P);}  // Once every 30 min
 
 }
+
 //End of code
